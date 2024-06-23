@@ -3405,6 +3405,144 @@
 					]
 				}
 			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGQCfsDK3DoR8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGQCfsDK3DpRy8=",
+					"_parent": {
+						"$ref": "AAAAAAGQCfsDK3DoR8Y="
+					},
+					"name": "GameFlow",
+					"ownedViews": [
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQCfv0onD7yuM=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 440,
+							"top": 88,
+							"width": 416,
+							"height": 120,
+							"text": "Main.py"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQCfwghnEByNw=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 424,
+							"top": 248,
+							"width": 424,
+							"height": 696,
+							"text": "Game.py"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQCfxJgnEFiQ8=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 912,
+							"top": 256,
+							"width": 400,
+							"height": 672,
+							"text": "Level.py"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQCfxe5nEJGUQ=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 16,
+							"top": 240,
+							"width": 368,
+							"height": 696,
+							"text": "Menu.py"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQGSwBvy89sDs=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 456,
+							"top": 296,
+							"width": 352,
+							"height": 120,
+							"text": "__init__()"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQGSwjai9CJx8=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 472,
+							"top": 136,
+							"width": 152,
+							"height": 32,
+							"text": "game Game()"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQGSx67S9MMjo=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 672,
+							"top": 136,
+							"width": 152,
+							"height": 32,
+							"text": "game.run()"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQGSzQ/S9UvkM=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 464,
+							"top": 440,
+							"width": 336,
+							"height": 464,
+							"text": "run()"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQGSz83y9bYHs=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 488,
+							"top": 336,
+							"width": 288,
+							"height": 64,
+							"text": "window = pygame.display.setmode(...)",
+							"horzAlign": 2
+						}
+					]
+				}
+			]
 		}
 	],
 	"author": "Kelvin",
