@@ -3412,7 +3412,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Model1",
+			"name": "FlowChar",
 			"ownedElements": [
 				{
 					"_type": "UMLClassDiagram",
@@ -3539,10 +3539,123 @@
 							"height": 64,
 							"text": "window = pygame.display.setmode(...)",
 							"horzAlign": 2
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGQQ0LwetxgWPM=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 280,
+							"width": 296,
+							"height": 152,
+							"text": "__init__(window)"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGQQ0NbStxlzvw=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 576,
+							"width": 208,
+							"height": 64,
+							"text": "menu = Menu(window)"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGQQ0XKV9zMZ8A=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 584,
+							"top": 472,
+							"width": 88,
+							"height": 72,
+							"text": "O while é True?"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGQQ0aahdziBcU=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 336,
+							"width": 216,
+							"height": 56,
+							"text": "self.window= window"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGQQ0bJhNzmo44=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 552,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGQQ0bNhNzpZKo=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 376,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGQQ0bQYNzsZQA=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 168,
+							"top": 344,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGQQ0bWt9zvslU=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 184,
+							"top": 520,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGQQ0baxtzyDQU=",
+							"_parent": {
+								"$ref": "AAAAAAGQCfsDK3DpRy8="
+							},
+							"font": "Arial;13;0",
+							"left": 184,
+							"top": 592,
+							"width": 60,
+							"height": 15
 						}
 					]
 				}
-			]
+			],
+			"visibility": "package"
 		}
 	],
 	"author": "Kelvin",
